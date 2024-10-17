@@ -3,7 +3,7 @@
 
 
 - 🖥️ Hoje trabalho com front-end
-- 📬 Contate-me no e-mail: josepereira3278@gmail.com
+- 📬 Contate-me no e-mail: joseeversonti@gmail.com
 
  <div>
    <a href="https://github.com/Eversonpereiraa">
