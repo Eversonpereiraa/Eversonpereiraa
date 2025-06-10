@@ -28,7 +28,7 @@ Sou um desenvolvedor apaixonado por transformar ideias em interfaces intuitivas,
 ## 📫 Vamos conversar?
 
 📧 Me envie um e-mail: [joseeversonti@gmail.com](mailto:joseeversonti@gmail.com)  
-🌍 Localização: Surubim - PE, Brasil  
+🌍 Localização: PE, Brasil  
 📁 Veja meus projetos aqui no GitHub ou conecte-se comigo para criarmos algo incrível!
 
 ---
