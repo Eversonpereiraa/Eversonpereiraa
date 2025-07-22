@@ -1,102 +1,54 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <title>José Everson</title>
-  <style>
-    body {
-      font-family: 'Courier New', Courier, monospace;
-      background-color: #0d1117;
-      color: #c9d1d9;
-      text-align: center;
-      padding: 40px;
-    }
+<!-- Animação com SVG de digitação -->
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=440&lines=Olá%2C+eu+sou+o+Everson!;Desenvolvedor+Web+Full+Stack;React+%7C+PHP+%7C+Node.js+%7C+HTML+%7C+CSS" alt="Typing SVG" />
+  </a>
+</p>
 
-    h1 {
-      font-size: 2.5em;
-      margin-bottom: 10px;
-    }
+---
 
-    .typewriter {
-      display: inline-block;
-      border-right: 2px solid #00ffcc;
-      white-space: nowrap;
-      overflow: hidden;
-      animation: blinkCursor 0.75s step-end infinite;
-    }
+## 👨‍💻 Sobre mim
 
-    @keyframes blinkCursor {
-      from, to { border-color: transparent; }
-      50% { border-color: #00ffcc; }
-    }
-  </style>
-</head>
-<body>
+Sou um **Desenvolvedor Web Full Stack** com experiência na criação de sistemas, APIs e interfaces modernas.  
+Meu foco é **entregar performance, usabilidade e código limpo**, sempre com atenção aos detalhes.
 
-  <h1>👨‍💻 José Everson</h1>
+Atualmente trabalho com:
 
-  <p>
-    <code class="typewriter" id="typewriter">&gt; </code><br />
-    <strong>Desenvolvedor Web</strong> & <strong>Web Designer</strong> apaixonado por transformar ideias em experiências modernas e funcionais. 🚀
-  </p>
+- Aplicações web modernas com **React.js**
+- Backend robusto com **Node.js** e **PHP**
+- Integração de sistemas, UI/UX e boas práticas de desenvolvimento
 
-  <hr />
+---
 
-  <h3>🚧 O que eu faço:</h3>
-  <ul style="list-style: none; padding: 0;">
-    <li>⚛️ Desenvolvimento de interfaces com <strong>React.js</strong></li>
-    <li>🖥️ Back-end com <strong>Node.js</strong> e <strong>PHP</strong></li>
-    <li>🎨 Criação de páginas com <strong>HTML5</strong>, <strong>CSS3</strong> e boas práticas de <strong>UX/UI Design</strong></li>
-    <li>🔌 Desenvolvimento de temas e plugins para <strong>WordPress</strong></li>
-  </ul>
+## 🛠️ Tecnologias e Ferramentas
 
-  <hr />
+<p>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS"/>
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</p>
 
-  <h3>💡 Tecnologias que utilizo:</h3>
-  <p>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="30" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="30" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" />
-  </p>
+---
 
-  <hr />
+## 📈 GitHub Stats
 
-  <h3>📫 Vamos conversar?</h3>
-  <ul style="list-style: none; padding: 0;">
-    <li>📧 E-mail: <a href="mailto:joseeversonti@gmail.com">joseeversonti@gmail.com</a></li>
-    <li>🌍 Localização: Pernambuco, Brasil 🇧🇷</li>
-    <li>📁 Repositórios aqui no GitHub – fique à vontade para explorar e colaborar!</li>
-  </ul>
+<p align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SEU-USUARIO-AQUI&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU-USUARIO-AQUI&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
 
-  <script>
-    const el = document.getElementById("typewriter");
-    const txt = "Olá, sou José Everson_";
-    let index = 0;
-    let forward = true;
+---
 
-    function typeWriter() {
-      if (forward) {
-        el.innerHTML = "> " + txt.substring(0, index++);
-        if (index > txt.length) {
-          forward = false;
-          setTimeout(typeWriter, 1500); // pausa antes de apagar
-          return;
-        }
-      } else {
-        el.innerHTML = "> " + txt.substring(0, index--);
-        if (index < 0) {
-          forward = true;
-        }
-      }
-      setTimeout(typeWriter, 100);
-    }
+## 📫 Contato
 
-    typeWriter();
-  </script>
+- 💼 [LinkedIn](https://www.linkedin.com/in/seu-link-aqui)
+- 📧 everson@email.com
+- 🌐 [Portfólio](https://seuportfoliolink.com) (caso tenha)
 
-</body>
-</html>
+---
+
+> _“Sempre buscando criar códigos que falem mais alto do que palavras.”_ 🚀
