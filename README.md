@@ -1,44 +1,102 @@
-<h1 align="center">👨‍💻 José Everson</h1>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>José Everson</title>
+  <style>
+    body {
+      font-family: 'Courier New', Courier, monospace;
+      background-color: #0d1117;
+      color: #c9d1d9;
+      text-align: center;
+      padding: 40px;
+    }
 
-<p align="center">
-  <code>> Olá, sou José Everson_</code><br />
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Olá%2C+sou+José+Everson_;Desenvolvedor+Web+%7C+Web+Design+apaixonado+por+transformar+ideias+em+experiências+modernas+e+funcionais.%F0%9F%9A%80" alt="Typing SVG" />
-  </a>
-</p>
-</p>
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
 
----
+    .typewriter {
+      display: inline-block;
+      border-right: 2px solid #00ffcc;
+      white-space: nowrap;
+      overflow: hidden;
+      animation: blinkCursor 0.75s step-end infinite;
+    }
 
-### 🚧 O que eu faço:
+    @keyframes blinkCursor {
+      from, to { border-color: transparent; }
+      50% { border-color: #00ffcc; }
+    }
+  </style>
+</head>
+<body>
 
-- ⚛️ Desenvolvimento de interfaces com **React.js**
-- 🖥️ Back-end com **Node.js** e **PHP**
-- 🎨 Criação de páginas com **HTML5**, **CSS3** e boas práticas de **UX/UI Design**
-- 🔌 Desenvolvimento de temas e plugins para **WordPress**
+  <h1>👨‍💻 José Everson</h1>
 
----
+  <p>
+    <code class="typewriter" id="typewriter">&gt; </code><br />
+    <strong>Desenvolvedor Web</strong> & <strong>Web Designer</strong> apaixonado por transformar ideias em experiências modernas e funcionais. 🚀
+  </p>
 
-### 💡 Tecnologias que utilizo:
+  <hr />
 
-<p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="JavaScript" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="TypeScript" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="React" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="30" alt="Node.js" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="30" alt="PHP" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="HTML5" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="CSS3" />
-</p>
+  <h3>🚧 O que eu faço:</h3>
+  <ul style="list-style: none; padding: 0;">
+    <li>⚛️ Desenvolvimento de interfaces com <strong>React.js</strong></li>
+    <li>🖥️ Back-end com <strong>Node.js</strong> e <strong>PHP</strong></li>
+    <li>🎨 Criação de páginas com <strong>HTML5</strong>, <strong>CSS3</strong> e boas práticas de <strong>UX/UI Design</strong></li>
+    <li>🔌 Desenvolvimento de temas e plugins para <strong>WordPress</strong></li>
+  </ul>
 
----
+  <hr />
 
-### 📫 Vamos conversar?
+  <h3>💡 Tecnologias que utilizo:</h3>
+  <p>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="30" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="30" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" />
+  </p>
 
-- 📧 E-mail: [joseeversonti@gmail.com](mailto:joseeversonti@gmail.com)
-- 🌍 Localização: Pernambuco, Brasil 🇧🇷
-- 📁 Repositórios aqui no GitHub – fique à vontade para explorar e colaborar!
+  <hr />
 
----
+  <h3>📫 Vamos conversar?</h3>
+  <ul style="list-style: none; padding: 0;">
+    <li>📧 E-mail: <a href="mailto:joseeversonti@gmail.com">joseeversonti@gmail.com</a></li>
+    <li>🌍 Localização: Pernambuco, Brasil 🇧🇷</li>
+    <li>📁 Repositórios aqui no GitHub – fique à vontade para explorar e colaborar!</li>
+  </ul>
 
+  <script>
+    const el = document.getElementById("typewriter");
+    const txt = "Olá, sou José Everson_";
+    let index = 0;
+    let forward = true;
+
+    function typeWriter() {
+      if (forward) {
+        el.innerHTML = "> " + txt.substring(0, index++);
+        if (index > txt.length) {
+          forward = false;
+          setTimeout(typeWriter, 1500); // pausa antes de apagar
+          return;
+        }
+      } else {
+        el.innerHTML = "> " + txt.substring(0, index--);
+        if (index < 0) {
+          forward = true;
+        }
+      }
+      setTimeout(typeWriter, 100);
+    }
+
+    typeWriter();
+  </script>
+
+</body>
+</html>
