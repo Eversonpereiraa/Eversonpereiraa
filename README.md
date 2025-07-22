@@ -46,8 +46,8 @@ Atualmente trabalho com:
 ## 📫 Contato
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/seu-link-aqui)
-- 📧 everson@email.com
-- 🌐 [Portfólio](https://seuportfoliolink.com) (caso tenha)
+- 📧 joseeversonti@email.com
+- 🌐 [Portfólio](https://seuportfoliolink.com](https://github.com/Eversonpereiraa)) 
 
 ---
 
