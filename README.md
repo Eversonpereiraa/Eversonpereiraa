@@ -2,7 +2,11 @@
 
 <p align="center">
   <code>> Olá, sou José Everson_</code><br />
-  <strong>Desenvolvedor Web</strong> & <strong>Web Designer</strong> apaixonado por transformar ideias em experiências modernas e funcionais. 🚀
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Olá%2C+sou+José+Everson_;Desenvolvedor+Web+%7C+Web+Design+apaixonado+por+transformar+ideias+em+experiências+modernas+e+funcionais.%F0%9F%9A%80" alt="Typing SVG" />
+  </a>
+</p>
 </p>
 
 ---
